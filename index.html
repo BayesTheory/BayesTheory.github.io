@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rian Costa Ferreira - Cientista de Dados | Engenheiro de ML</title>
+    <meta name="author" content="Rian Costa Ferreira">
+    <meta name="description" content="Portfólio de Rian Costa Ferreira, Cientista de Dados e Engenheiro de Machine Learning com experiência em MLOps, Deep Learning e Sensoriamento Remoto.">
+    <meta property="og:title" content="Rian Costa Ferreira - Portfólio">
+    <meta property="og:description" content="Especialista na construção e implantação de soluções de ML escaláveis e robustas.">
+    <meta property="og:image" content="URL_DA_SUA_IMAGEM_DE_PERFIL_AQUI">
+    <meta property="og:url" content="URL_DO_SEU_SITE_QUANDO_ESTIVER_ONLINE">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Roboto+Mono:wght@700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div id="particles-js"></div>
+
+    <header class="navbar">
+        <a href="#hero" class="brand">Rian Costa Ferreira</a>
+        <nav class="nav-links">
+            <a href="#sobre">Sobre</a>
+            <a href="#projetos">Projeto</a>
+            <a href="#experiencia">Experiência</a>
+            <a href="#habilidades">Habilidades</a>
+            <a href="#contato">Contato</a>
+            <button id="theme-toggle" class="theme-toggle" aria-label="Alternar tema">
+                <i id="sun-icon" data-feather="sun"></i>
+                <i id="moon-icon" data-feather="moon"></i>
+            </button>
+        </nav>
+    </header>
+
+    <div class="scroll-container">
+        
+        <section id="hero" class="fullscreen-section">
+            <div class="content">
+                <h1>Cientista de Dados<br>Engenheiro de Machine Learning</h1>
+                
+                <p>Cientista de Dados especialista em modelagem preditiva, MLOps e IA geoespacial. Atuo em projetos de P&D para a indústria de energia, transformando dados complexos de sensoriamento remoto (LiDAR, WRF) em soluções de deep learning (CNN/Transformers) para classificação, detecção e segmentação de alvos offshore e onshore.</p>
+                
+                <a href="#projetos" class="btn">Ver Projeto</a>
+            </div>
+        </section>
+
+        <section id="sobre" class="fullscreen-section">
+            <div class="content about-layout hidden">
+                <div class="about-text">
+                    <h2>Minha Filosofia</h2>
+                    <p>Olá, sou o Rian. Sou fascinado por quebra-cabeças complexos, e para mim, dados são as peças. Minha jornada na Estatística e agora no Mestrado em IA me deu as ferramentas para não apenas juntar essas peças, mas para construir soluções que preveem o futuro e otimizam o presente.</p>
+                    <p>Acredito que o melhor modelo é aquele que não só tem alta acurácia, mas que também é robusto, interpretável e gera valor real em produção. Por isso, meu foco vai além do algoritmo, abrangendo todo o ciclo de vida do modelo com práticas de MLOps. Nos meus projetos, você verá essa filosofia em ação.</p>
+                </div>
+                <div class="about-visual">
+                    <img src="assets/images/profile.png" alt="Foto de Rian Costa Ferreira">
+                </div>
+            </div>
+        </section>
+
+        <section id="projetos" class="fullscreen-section">
+            <div class="content featured-project-layout hidden">
+                <div class="project-image">
+                    <img src="assets/images/projects/simulador-eolico.png" alt="Interface do Simulador de Viabilidade Eólica">
+                </div>
+                <div class="project-details">
+                    <h4>Projeto de Portfólio</h4>
+                    <h3>Simulador de Viabilidade Eólica com IA</h3>
+                    <div class="project-description">
+                        <p>Uma ferramenta de decisão completa que responde à pergunta de negócio: "Vale a pena instalar uma turbina eólica neste local?". O sistema integra um modelo de previsão de ventos (SpatioTemporal Transformer) com um simulador operacional (XGBoost, LSTM Autoencoder) e uma camada de IA conversacional (Google Gemini) para gerar relatórios de viabilidade técnica e financeira.</p>
+                    </div>
+                    <div class="tags">
+                        <span>FastAPI</span><span>Docker</span><span>PyTorch</span><span>MLOps</span><span>Gemini</span>
+                    </div>
+                    <div class="links">
+                        <a href="#" target="_blank">Acessar Simulador</a>
+                        <a href="https://github.com/BayesTheory/SpatioTemporal-Wind-Forecasting" target="_blank">Ver Código no GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="experiencia" class="fullscreen-section">
+             <div class="content hidden">
+                <h2>Experiência em Projetos Anteriores</h2>
+                <div class="experience-grid">
+                    <div class="experience-card">
+                        <img src="assets/images/projects/eolico.png" alt="Ícone do projeto eólico">
+                        <div class="experience-card-content">
+                            <h4>Previsão de Ventos para Energia Eólica</h4>
+                            <p>Desenvolvimento e coordenação de modelos (WRF) para prospecção de áreas de energia eólica offshore.</p>
+                            <p class="company">Parceria: TotalEnergies (via COPPE/UFRJ)</p>
+                        </div>
+                    </div>
+                    <div class="experience-card">
+                        <img src="assets/images/projects/petroleo.png" alt="Ícone do projeto de prospecção">
+                        <div class="experience-card-content">
+                            <h4>Otimização de Prospecção com LiDAR</h4>
+                            <p>Aplicação de ML em dados LiDAR para otimizar a prospecção de petróleo e apoiar a decisão estratégica.</p>
+                            <p class="company">Parceria: Petrobras (via COPPE/UFRJ)</p>
+                        </div>
+                    </div>
+                    <div class="experience-card">
+                        <img src="assets/images/projects/oceano.png" alt="Ícone do projeto de correntes oceânicas">
+                        <div class="experience-card-content">
+                            <h4>Previsão de Correntes Oceânicas</h4>
+                            <p>Criação de modelos preditivos (ROMS) para análise e previsão de correntes oceânicas.</p>
+                            <p class="company">Parceria: Karoon (via COPPE/UFRJ)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="habilidades" class="fullscreen-section">
+            <div class="content hidden">
+                <h2>Ferramentas & Tecnologias</h2>
+                <div class="skills-grid">
+                    <div class="skill-card"><img src="https://cdn.simpleicons.org/python/64FFDA" alt="Python" /><span>Python</span></div>
+                    <div class="skill-card"><img src="https://cdn.simpleicons.org/tensorflow/64FFDA" alt="TensorFlow" /><span>TensorFlow</span></div>
+                    <div class="skill-card"><img src="https://cdn.simpleicons.org/pytorch/64FFDA" alt="PyTorch" /><span>PyTorch</span></div>
+                    <div class="skill-card"><img src="https://cdn.simpleicons.org/scikitlearn/64FFDA" alt="Scikit-learn" /><span>Scikit-learn</span></div>
+                    <div class="skill-card"><img src="https://cdn.simpleicons.org/docker/64FFDA" alt="Docker" /><span>Docker</span></div>
+                    <div class="skill-card"><img src="https://cdn.simpleicons.org/git/64FFDA" alt="Git" /><span>Git</span></div>
+                    <div class="skill-card"><img src="https://cdn.simpleicons.org/mlflow/64FFDA" alt="MLflow" /><span>MLflow</span></div>
+                    <div class="skill-card"><img src="https://cdn.simpleicons.org/cplusplus/64FFDA" alt="C++" /><span>C++</span></div>
+                    <div class="skill-card"><img src="https://cdn.simpleicons.org/r/64FFDA" alt="R" /><span>R</span></div>
+                    <div class="skill-card"><img src="https://cdn.simpleicons.org/postgresql/64FFDA" alt="SQL" /><span>SQL</span></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="fullscreen-section">
+            <div class="content hidden">
+                <h2>Entre em Contato</h2>
+                <p>Estou sempre aberto a novas oportunidades e colaborações. Sinta-se à vontade para se conectar.</p>
+                <a href="mailto:rferreira@lamce.coppe.ufrj.br" class="email-link">rferreira@lamce.coppe.ufrj.br</a>
+                <div class="social-links">
+                    <a href="https://github.com/BayesTheory" target="_blank" aria-label="GitHub"><i data-feather="github"></i></a>
+                    <a href="https://linkedin.com/in/rian-ferreira" target="_blank"aria-label="LinkedIn"><i data-feather="linkedin"></i></a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="assets/js/particles-config.js"></script>
+    <script src="assets/js/scripts.js"></script>
+    <script>
+      feather.replace()
+    </script>
+</body>
+</html>

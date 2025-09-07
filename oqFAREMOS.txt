@@ -1,0 +1,46 @@
+portfolio/
+│
+├── 📜 index.html
+│   (Obrigação: Ponto de entrada principal. Conterá a estrutura HTML de todas as seções da sua página única.)
+│
+├── 📁 assets/
+│   (Obrigação: Guardar todos os recursos compilados e estáticos que o site utiliza para se apresentar.)
+│   │
+│   ├── 🎨 css/
+│   │   └── 📄 style.css
+│   │       (Obrigação: Única fonte de estilização. Definir cores, fontes, layout, animações e o efeito de scroll.)
+│   │
+│   ├── 🖼️ images/
+│   │   ├── 👤 profile.png
+│   │   │   (Obrigação: Conter a sua foto de perfil profissional.)
+│   │   │
+│   │   ├── 📂 projects/
+│   │   │   ├── 📄 eolico.png
+│   │   │   └── 📄 sentimento.png
+│   │   │   (Obrigação: Organizar e armazenar as imagens de capa de cada um dos seus projetos.)
+│   │   │
+│   │   └── 📂 ui/
+│   │       └── 📄 background-pattern.svg
+│   │       (Obrigação: Guardar elementos visuais que não são fotos, como texturas, logos ou ícones customizados.)
+│   │
+│   └── 🧠 js/
+│       └── 📄 main.js
+│           (Obrigação: Conter qualquer código JavaScript para interatividade. Ex: animações ao rolar, ativar menu mobile, etc. Começará vazio.)
+│
+├──  favicon/
+│   (Obrigação: Armazenar TODOS os ícones que aparecem na aba do navegador e na tela inicial de celulares. Essencial para profissionalismo.)
+│   │
+│   ├── 📄 favicon.ico
+│   ├── 📄 apple-touch-icon.png
+│   ├── 📄 favicon-32x32.png
+│   ├── 📄 favicon-16x16.png
+│   └── 📄 site.webmanifest
+│
+├── 📄 .gitignore
+│   (Obrigação: Dizer ao Git quais arquivos e pastas ele deve IGNORAR. Crucial para não enviar arquivos desnecessários ou sensíveis para o GitHub.)
+│
+├── 📄 README.md
+│   (Obrigação: Ser a documentação oficial do seu projeto no GitHub. Explicar o que é o projeto e como rodá-lo localmente.)
+│
+└── 📄 robots.txt
+    (Obrigação: Dar instruções para os robôs de busca (Google, Bing), permitindo ou bloqueando a indexação de certas partes do site.)
