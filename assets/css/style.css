@@ -57,7 +57,6 @@ body {
     height: 100vh;
     overflow-y: scroll;
     scroll-snap-type: y mandatory;
-    overflow: auto;
 }
 
 .fullscreen-section {
@@ -86,7 +85,6 @@ body {
     background-color: var(--nav-bg-color);
     backdrop-filter: blur(10px);
     transition: top 0.3s, background-color 0.3s; 
-    overflow: auto;
 }
 .navbar a {
     color: var(--text-primary);
