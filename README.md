@@ -50,7 +50,6 @@ Este portfólio é um projeto vivo e continuará a evoluir. As próximas grandes
 
 1.  **Deploy do Simulador Eólico:** O projeto principal, "Simulador de Viabilidade Eólica com IA", será hospedado no Google Cloud (utilizando Cloud Run e Docker) e o link "Acessar Simulador" será ativado.
 2.  **Novo Projeto de Portfólio:** Um segundo "case study" completo será desenvolvido e adicionado, provavelmente focado em Visão Computacional ou Processamento de Linguagem Natural (NLP) em larga escala.
-3.  **Página de "Outros Projetos":** Uma página secundária será criada para listar projetos menores, experimentos ou contribuições para projetos open-source. A estrutura inicial para esta página (`outros-projetos.html`) já está no repositório.
 
 ## Contato
 
