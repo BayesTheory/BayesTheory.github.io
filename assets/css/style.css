@@ -57,6 +57,7 @@ body {
     height: 100vh;
     overflow-y: scroll;
     scroll-snap-type: y mandatory;
+    overflow: auto;
 }
 
 .fullscreen-section {
@@ -68,6 +69,7 @@ body {
     align-items: center;
     scroll-snap-align: start;
     padding: 2rem 5%;
+    overflow: auto;
 }
 
 /* 3. NAVBAR */
@@ -84,6 +86,7 @@ body {
     background-color: var(--nav-bg-color);
     backdrop-filter: blur(10px);
     transition: top 0.3s, background-color 0.3s; 
+    overflow: auto;
 }
 .navbar a {
     color: var(--text-primary);
@@ -286,8 +289,8 @@ h2 { font-size: clamp(2rem, 4vw, 2.5rem); }
 }
 
 .experience-card img {
-    width: 100px;  /* AUMENTADO de 80px para 100px */
-    height: 100px; /* AUMENTADO de 80px para 100px */
+    width: 50px;  /* AUMENTADO de 80px para 100px */
+    height: 50px; /* AUMENTADO de 80px para 100px */
     border-radius: 8px;
     object-fit: cover;
     flex-shrink: 0;
@@ -299,19 +302,19 @@ h2 { font-size: clamp(2rem, 4vw, 2.5rem); }
 
 .experience-card h4 {
     margin: 0 0 0.5rem 0; /* Aumentada a margem inferior */
-    font-size: 1.2rem;   /* Aumentado o tamanho da fonte */
+    font-size: 1.0rem;   /* Aumentado o tamanho da fonte */
 }
 
 .experience-card p {
     margin: 0;
-    font-size: 1rem; /* AUMENTADO de 0.9rem para 1rem */
+    font-size: 0.7em; /* AUMENTADO de 0.9rem para 1rem */
 }
 
 .experience-card .company {
     font-size: 0.9rem; /* AUMENTADO de 0.8rem para 0.9rem */
     color: var(--accent-color);
     font-weight: bold;
-    margin-top: 1rem; /* Aumentada a margem superior */
+    margin-top: 0.8rem; /* Aumentada a margem superior */
 }
 
 
