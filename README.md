@@ -1,8 +1,15 @@
-# Portfólio de Rian Costa Ferreira
+# Rian Costa Ferreira — AI Engineer
 
-Bem-vindo ao repositório do meu portfólio pessoal. Este projeto é a minha "folha de rosto" profissional, uma página única e interativa que apresenta minha trajetória, habilidades e projetos como Cientista de Dados e Engenheiro de Machine Learning.
+Personal portfolio website — **[bayes.ia.br](https://bayes.ia.br)**
 
-Sinta-se à vontade para se conectar ou entrar em contato:
+AI Engineer specializing in **MLOps**, **Computer Vision**, and **Generative AI** in production environments. Experience building and deploying end-to-end ML pipelines with CI/CD on AWS serverless, multimodal integration (OCR, NLP, Video Detection), and Transformer-based architectures.
 
-* **LinkedIn:** [linkedin.com/in/rian-ferreira](https://linkedin.com/in/rian-ferreira)
-* **Email:** [rferreira@lamce.coppe.ufrj.br](mailto:rferreira@lamce.coppe.ufrj.br)
+## Stack
+
+Python · PyTorch · TensorFlow · Docker · AWS · FastAPI · Git · OpenCV · SQL · R
+
+## Contact
+
+- **LinkedIn:** [linkedin.com/in/rian-ferreira](https://linkedin.com/in/rian-ferreira)
+- **Email:** [rianagar.io@gmail.com](mailto:rianagar.io@gmail.com)
+- **GitHub:** [github.com/BayesTheory](https://github.com/BayesTheory)

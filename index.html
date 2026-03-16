@@ -3,19 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rian Costa Ferreira - Cientista de Dados | Engenheiro de ML</title>
+    <title>Rian Costa Ferreira — AI Engineer | MLOps & Computer Vision</title>
 
     <link rel="icon" href="favicon/logo.svg" type="image/svg+xml">
 
     <meta name="author" content="Rian Costa Ferreira">
-    <meta name="description" content="Portfólio de Rian Costa Ferreira, Cientista de Dados e Engenheiro de Machine Learning com experiência em MLOps, Deep Learning e Sensoriamento Remoto.">
-    <meta property="og:title" content="Rian Costa Ferreira - Portfólio">
-    <meta property="og:description" content="Especialista na construção e implantação de soluções de ML escaláveis e robustas.">
-    <meta property="og:image" content="URL_DA_SUA_IMAGEM_DE_PERFIL_AQUI">
-    <meta property="og:url" content="URL_DO_SEU_SITE_QUANDO_ESTIVER_ONLINE">
+    <meta name="description" content="AI Engineer especializado em MLOps, Visão Computacional e soluções de IA em produção. Experiência com pipelines reprodutíveis, deep learning e deploy em AWS.">
+    <meta property="og:title" content="Rian Costa Ferreira — AI Engineer">
+    <meta property="og:description" content="Engenheiro de ML com foco em visão computacional, MLOps e IA generativa em produção.">
+    <meta property="og:image" content="assets/images/profile.png">
+    <meta property="og:url" content="https://bayes.ia.br">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Roboto+Mono:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
     <script src="https://unpkg.com/feather-icons"></script>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -23,12 +23,12 @@
     <div id="particles-js"></div>
 
     <header class="navbar">
-        <a href="#hero" class="brand">Rian Costa Ferreira</a>
+        <a href="#hero" class="brand">RC<span class="brand-accent">F</span></a>
         <nav class="nav-links">
             <a href="#sobre">Sobre</a>
-            <a href="#projetos">Projeto</a>
             <a href="#experiencia">Experiência</a>
-            <a href="#habilidades">Habilidades</a>
+            <a href="#competencias">Competências</a>
+            <a href="#formacao">Formação</a>
             <a href="#contato">Contato</a>
             <button id="theme-toggle" class="theme-toggle" aria-label="Alternar tema">
                 <i id="sun-icon" data-feather="sun"></i>
@@ -39,110 +39,195 @@
 
     <div class="scroll-container">
         
+        <!-- HERO -->
         <section id="hero" class="fullscreen-section">
             <div class="content">
-                <h1>Cientista de Dados<br>Engenheiro de Machine Learning</h1>
+                <p class="hero-greeting">Olá, eu sou</p>
+                <h1>Rian Costa Ferreira</h1>
+                <h2 class="hero-subtitle">AI Engineer<span class="accent-dot">.</span></h2>
+                <p class="hero-tagline">Generative AI &bull; MLOps &bull; Visão Computacional</p>
                 
-                <p>Cientista de Dados especialista em modelagem preditiva, MLOps e IA geoespacial. Atuo em projetos de P&D para a indústria de energia, transformando dados complexos de sensoriamento remoto (LiDAR, WRF) em soluções de deep learning (CNN/Transformers) para classificação, detecção e segmentação de alvos offshore e onshore.</p>
+                <p>Engenheiro de Machine Learning com experiência no desenvolvimento, implantação e sustentação de soluções de IA em produção — do dado ao deploy. Pipelines reprodutíveis, avaliação com ground truth, integração multimodal (OCR, NLP, Computer Vision) e operação em ambiente AWS serverless.</p>
                 
-                <a href="#projetos" class="btn">Ver Projeto</a>
+                <div class="hero-cta">
+                    <a href="#experiencia" class="btn">Experiência</a>
+                    <a href="#contato" class="btn btn-ghost">Contato</a>
+                </div>
             </div>
         </section>
 
+        <!-- SOBRE -->
         <section id="sobre" class="fullscreen-section">
             <div class="content about-layout hidden">
                 <div class="about-text">
-                    <h2>Minha Filosofia</h2>
-                    <p>Olá, sou o Rian. Sou fascinado por quebra-cabeças complexos, e para mim, dados são as peças. Minha jornada na Estatística e agora no Mestrado em IA me deu as ferramentas para não apenas juntar essas peças, mas para construir soluções que preveem o futuro e otimizam o presente.</p>
-                    <p>Acredito que o melhor modelo é aquele que não só tem alta acurácia, mas que também é robusto, interpretável e gera valor real em produção. Por isso, meu foco vai além do algoritmo, abrangendo todo o ciclo de vida do modelo com práticas de MLOps. Nos meus projetos, você verá essa filosofia em ação.</p>
+                    <h2>Sobre Mim</h2>
+                    <p>Perfil hands-on com forte base em Python, documentação técnica, validação experimental e colaboração com times técnicos e parceiros corporativos em projetos de alta complexidade.</p>
+                    <p>Atuo em todo o ciclo de vida de modelos de IA: desde a estruturação de datasets e padrões de anotação, passando por treino e fine-tuning, até deploy automatizado com CI/CD. Meu foco é entregar soluções robustas, mensuráveis e que funcionam em produção real.</p>
+                    <p>Formação em Estatística com Mestrado em Inteligência Artificial pela UFRJ, combinando rigor quantitativo com engenharia de software moderna.</p>
                 </div>
                 <div class="about-visual">
-                    <img src="assets/images/profile.png" alt="Foto de Rian Costa Ferreira">
+                    <img src="assets/images/profile.png" alt="Rian Costa Ferreira">
                 </div>
             </div>
         </section>
 
-        <section id="projetos" class="fullscreen-section">
-            <div class="content featured-project-layout hidden">
-                <div class="project-image">
-                    <img src="assets/images/projects/simulador-eolico.png" alt="Interface do Simulador de Viabilidade Eólica">
-                </div>
-                <div class="project-details">
-                    <h4>Projeto de Portfólio</h4>
-                    <h3>Simulador de Viabilidade Eólica com IA</h3>
-                    <div class="project-description">
-                        <p>Uma ferramenta de decisão completa que responde à pergunta de negócio: "Vale a pena instalar uma turbina eólica neste local?". O sistema integra um modelo de previsão de ventos (SpatioTemporal Transformer) com um simulador operacional (XGBoost, LSTM Autoencoder) e uma camada de IA conversacional (Google Gemini) para gerar relatórios de viabilidade técnica e financeira.</p>
-                    </div>
-                    <div class="tags">
-                        <span>FastAPI</span><span>Docker</span><span>PyTorch</span><span>MLOps</span><span>Gemini</span>
-                    </div>
-                    <div class="links">
-                        <a href="#" target="_blank">Acessar Simulador</a>
-                        <a href="https://github.com/BayesTheory/SpatioTemporal-Wind-Forecasting" target="_blank">Ver Código no GitHub</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        
+        <!-- EXPERIÊNCIA PROFISSIONAL -->
         <section id="experiencia" class="fullscreen-section">
-             <div class="content hidden">
-                <h2>Experiência em Projetos Anteriores</h2>
-                <div class="experience-grid">
-                    <div class="experience-card">
-                        <img src="assets/images/projects/eolico.png" alt="Ícone do projeto eólico">
-                        <div class="experience-card-content">
-                            <h4>Previsão de Ventos para Energia Eólica</h4>
-                            <p>Desenvolvimento e coordenação de modelos (WRF) para prospecção de áreas de energia eólica offshore.</p>
-                            <p class="company">Parceria: TotalEnergies (via COPPE/UFRJ)</p>
+            <div class="content hidden">
+                <h2>Experiência Profissional</h2>
+                <div class="timeline">
+
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <h3>Engenheiro de Machine Learning (P&D)</h3>
+                                <span class="timeline-period">Out 2025 — Atual</span>
+                            </div>
+                            <p class="timeline-company">Vox Radar · Remoto — Visão Computacional</p>
+                            <ul class="timeline-list">
+                                <li>Soluções de IA em produção com foco em robustez, performance e confiabilidade operacional.</li>
+                                <li>Pipelines reprodutíveis com CI/CD em AWS serverless — treino, release e deploy automatizados.</li>
+                                <li>Pipeline multimodal com OCR e NLP para extração de informação em mídia e documentos.</li>
+                                <li>Otimização de inferência near real-time via profiling, ajustes de resolução e batch.</li>
+                                <li>Fine-tuning de modelos de detecção em vídeo com YOLO, reduzindo falsos positivos para ~2%.</li>
+                                <li>Construção de datasets, padrões de anotação e processos de qualidade para ciclo de vida dos modelos.</li>
+                            </ul>
+                            <div class="tags">
+                                <span>YOLO</span><span>PyTorch</span><span>AWS</span><span>CI/CD</span><span>OCR</span><span>NLP</span><span>Docker</span>
+                            </div>
                         </div>
                     </div>
-                    <div class="experience-card">
-                        <img src="assets/images/projects/petroleo.png" alt="Ícone do projeto de prospecção">
-                        <div class="experience-card-content">
-                            <h4>Otimização de Prospecção com LiDAR</h4>
-                            <p>Aplicação de ML em dados LiDAR para otimizar a prospecção de petróleo e apoiar a decisão estratégica.</p>
-                            <p class="company">Parceria: Petrobras (via COPPE/UFRJ)</p>
+
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <h3>Pesquisador em IA e Ciência de Dados</h3>
+                                <span class="timeline-period">Nov 2023 — Atual</span>
+                            </div>
+                            <p class="timeline-company">LAMCE / COPPE / UFRJ · Híbrido</p>
+                            <ul class="timeline-list">
+                                <li>P&D com integração de dados, validação com ground truth e desenho experimental para avaliação de modelos.</li>
+                                <li>Pipelines analíticos com foco em reprodutibilidade, automação de entregas e redução de retrabalho.</li>
+                                <li>Docker e HPC com computação paralela para padronização de execuções e ambientes com múltiplos stakeholders.</li>
+                                <li>Implementação de Swin Transformer para inferência de variáveis latentes — redução de ~75% do custo computacional com ~2% de perda frente ao baseline.</li>
+                                <li>Projetos aplicados para Petrobras, TotalEnergies e Karoon.</li>
+                            </ul>
+                            <div class="tags">
+                                <span>Transformers</span><span>Docker</span><span>HPC</span><span>Python</span><span>Swin</span>
+                            </div>
                         </div>
                     </div>
-                    <div class="experience-card">
-                        <img src="assets/images/projects/oceano.png" alt="Ícone do projeto de correntes oceânicas">
-                        <div class="experience-card-content">
-                            <h4>Previsão de Correntes Oceânicas</h4>
-                            <p>Criação de modelos preditivos (ROMS) para análise e previsão de correntes oceânicas.</p>
-                            <p class="company">Parceria: Karoon (via COPPE/UFRJ)</p>
+
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <h3>Estagiário Desenvolvedor RPA</h3>
+                                <span class="timeline-period">Jul 2022 — Jun 2023</span>
+                            </div>
+                            <p class="timeline-company">Porto Seguro Consórcios · Remoto</p>
+                            <ul class="timeline-list">
+                                <li>Automação de processos com UiPath/Orchestrator e integrações Python/Selenium.</li>
+                                <li>Classificador de e-mails por tema e sentimento — redução de ~90% do volume encaminhado a advogados.</li>
+                                <li>Rotinas de eficiência operacional em fluxos com múltiplas entradas e sistemas.</li>
+                            </ul>
+                            <div class="tags">
+                                <span>Python</span><span>UiPath</span><span>Selenium</span><span>NLP</span>
+                            </div>
                         </div>
                     </div>
+
                 </div>
             </div>
         </section>
 
-        <section id="habilidades" class="fullscreen-section">
+        <!-- COMPETÊNCIAS -->
+        <section id="competencias" class="fullscreen-section">
             <div class="content hidden">
-                <h2>Ferramentas & Tecnologias</h2>
+                <h2>Competências</h2>
+                <div class="competence-grid">
+                    <div class="competence-card">
+                        <i data-feather="code" class="competence-icon"></i>
+                        <h4>Linguagens & Dados</h4>
+                        <p>Python, R, SQL, modelagem estatística, análise de dados e validação experimental.</p>
+                    </div>
+                    <div class="competence-card">
+                        <i data-feather="cpu" class="competence-icon"></i>
+                        <h4>IA Aplicada</h4>
+                        <p>Deep Learning, Transformers, LLMs, OCR, NLP, Visão Computacional e pipelines multimodais.</p>
+                    </div>
+                    <div class="competence-card">
+                        <i data-feather="server" class="competence-icon"></i>
+                        <h4>Produção & MLOps</h4>
+                        <p>Git, Docker, CI/CD, AWS, HPC, testes, deploy, monitoramento e reprodutibilidade de artefatos.</p>
+                    </div>
+                    <div class="competence-card">
+                        <i data-feather="layers" class="competence-icon"></i>
+                        <h4>Engenharia de Solução</h4>
+                        <p>Integração de componentes, desenho de fluxos técnicos, documentação e padronização de processos.</p>
+                    </div>
+                    <div class="competence-card">
+                        <i data-feather="bar-chart-2" class="competence-icon"></i>
+                        <h4>Qualidade & Avaliação</h4>
+                        <p>Ground truth, métricas, benchmarking, desenho experimental e otimização de inferência.</p>
+                    </div>
+                </div>
+
+                <h3 class="tools-title">Stack</h3>
                 <div class="skills-grid">
                     <div class="skill-card"><img src="https://cdn.simpleicons.org/python/64FFDA" alt="Python" /><span>Python</span></div>
-                    <div class="skill-card"><img src="https://cdn.simpleicons.org/tensorflow/64FFDA" alt="TensorFlow" /><span>TensorFlow</span></div>
                     <div class="skill-card"><img src="https://cdn.simpleicons.org/pytorch/64FFDA" alt="PyTorch" /><span>PyTorch</span></div>
-                    <div class="skill-card"><img src="https://cdn.simpleicons.org/scikitlearn/64FFDA" alt="Scikit-learn" /><span>Scikit-learn</span></div>
+                    <div class="skill-card"><img src="https://cdn.simpleicons.org/tensorflow/64FFDA" alt="TensorFlow" /><span>TensorFlow</span></div>
                     <div class="skill-card"><img src="https://cdn.simpleicons.org/docker/64FFDA" alt="Docker" /><span>Docker</span></div>
+                    <div class="skill-card"><img src="https://cdn.simpleicons.org/amazonaws/64FFDA" alt="AWS" /><span>AWS</span></div>
                     <div class="skill-card"><img src="https://cdn.simpleicons.org/git/64FFDA" alt="Git" /><span>Git</span></div>
-                    <div class="skill-card"><img src="https://cdn.simpleicons.org/mlflow/64FFDA" alt="MLflow" /><span>MLflow</span></div>
-                    <div class="skill-card"><img src="https://cdn.simpleicons.org/cplusplus/64FFDA" alt="C++" /><span>C++</span></div>
-                    <div class="skill-card"><img src="https://cdn.simpleicons.org/r/64FFDA" alt="R" /><span>R</span></div>
+                    <div class="skill-card"><img src="https://cdn.simpleicons.org/opencv/64FFDA" alt="OpenCV" /><span>OpenCV</span></div>
                     <div class="skill-card"><img src="https://cdn.simpleicons.org/postgresql/64FFDA" alt="SQL" /><span>SQL</span></div>
+                    <div class="skill-card"><img src="https://cdn.simpleicons.org/r/64FFDA" alt="R" /><span>R</span></div>
+                    <div class="skill-card"><img src="https://cdn.simpleicons.org/fastapi/64FFDA" alt="FastAPI" /><span>FastAPI</span></div>
                 </div>
             </div>
         </section>
 
+        <!-- FORMAÇÃO -->
+        <section id="formacao" class="fullscreen-section">
+            <div class="content hidden">
+                <h2>Formação Acadêmica</h2>
+                <div class="education-grid">
+                    <div class="education-card">
+                        <div class="education-icon"><i data-feather="award"></i></div>
+                        <div class="education-info">
+                            <h4>Mestrado em Inteligência Artificial</h4>
+                            <p class="education-school">Universidade Federal do Rio de Janeiro (UFRJ)</p>
+                            <p class="education-detail">Linha de pesquisa: IA aplicada a Sensoriamento Remoto</p>
+                            <span class="education-period">Ago 2025 — Ago 2026</span>
+                        </div>
+                    </div>
+                    <div class="education-card">
+                        <div class="education-icon"><i data-feather="book-open"></i></div>
+                        <div class="education-info">
+                            <h4>Bacharelado em Estatística</h4>
+                            <p class="education-school">Faculdades Metropolitanas Unidas (FMU)</p>
+                            <span class="education-period">Concluído em Jul 2025</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTATO -->
         <section id="contato" class="fullscreen-section">
             <div class="content hidden">
-                <h2>Entre em Contato</h2>
-                <p>Estou sempre aberto a novas oportunidades e colaborações. Sinta-se à vontade para se conectar.</p>
-                <a href="mailto:rferreira@lamce.coppe.ufrj.br" class="email-link">rferreira@lamce.coppe.ufrj.br</a>
+                <h2>Vamos Conversar</h2>
+                <p>Aberto a oportunidades, colaborações e projetos desafiadores.</p>
+                <a href="mailto:rianagar.io@gmail.com" class="email-link">rianagar.io@gmail.com</a>
                 <div class="social-links">
                     <a href="https://github.com/BayesTheory" target="_blank" aria-label="GitHub"><i data-feather="github"></i></a>
-                    <a href="https://linkedin.com/in/rian-ferreira" target="_blank"aria-label="LinkedIn"><i data-feather="linkedin"></i></a>
+                    <a href="https://linkedin.com/in/rian-ferreira" target="_blank" aria-label="LinkedIn"><i data-feather="linkedin"></i></a>
                 </div>
+                <p class="contact-location">Rio de Janeiro, Brasil</p>
             </div>
         </section>
     </div>
