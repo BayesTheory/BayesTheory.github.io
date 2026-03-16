@@ -57,6 +57,11 @@ body {
     height: 100vh;
     overflow-y: scroll;
     scroll-snap-type: y proximity;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE/Edge */
+}
+.scroll-container::-webkit-scrollbar {
+    display: none; /* Chrome/Safari */
 }
 
 .fullscreen-section {
