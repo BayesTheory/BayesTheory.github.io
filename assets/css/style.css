@@ -462,6 +462,44 @@ html[data-theme='light'] .skill-card img {
 }
 
 
+/* ===== CERTIFICA\u00c7\u00d5ES ===== */
+.certs-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1rem;
+    margin-top: 1.5rem;
+    text-align: left;
+}
+.cert-item {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 1rem 1.25rem;
+    background: var(--card-bg-color);
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    transition: border-color 0.3s;
+}
+.cert-item:hover {
+    border-color: var(--accent-color);
+}
+.cert-icon {
+    color: var(--accent-color);
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+}
+.cert-item strong {
+    color: var(--text-primary);
+    font-size: 0.95rem;
+    display: block;
+}
+.cert-issuer {
+    color: var(--text-secondary);
+    font-size: 0.8rem;
+}
+
+
 /* ===== CONTATO ===== */
 .email-link {
     color: var(--text-primary);
